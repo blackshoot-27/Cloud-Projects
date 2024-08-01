@@ -1,2 +1,2 @@
 # AWS-Projects
-1.Employee-Dashboard Project Completed on Aws Cloud Techniqal Essentials
+1.Employee-WebApp Project Completed on Aws Cloud Techniqal Essentials
