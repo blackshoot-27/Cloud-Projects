@@ -1,2 +1,2 @@
 # AWS-Projects
-Beginner Projects fir AWS
+Projects for AWS
