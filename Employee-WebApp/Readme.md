@@ -9,7 +9,7 @@ I'm excited to share a recent project where I designed and implemented a three-t
     DynamoDB: Offered fast and scalable NoSQL database support.
     CloudWatch: Monitored application health and performance in real-time.
 
-I’ve attached a screenshot of the architecture diagram for a closer look. This project allowed me to deepen my understanding of cloud architecture and AWS services, and I’m eager to apply these skills to future challenges.
+I’ve attached a screenshot of the architecture diagram for a closer look in pdf. This project allowed me to deepen my understanding of cloud architecture and AWS services, and I’m eager to apply these skills to future challenges.
 
 👉 Check out the attached screenshot for more details and feel free to connect if you'd like to discuss cloud computing or similar projects!
 
