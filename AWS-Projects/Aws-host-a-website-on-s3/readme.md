@@ -1,7 +1,9 @@
 
 🚀 Just wrapped up a thrilling Amazon S3 project—challenge mode engaged! 🔍
 
-![Website-Hosted](https://github.com/blackshoot-27/AWS-Projects/blob/main/Aws-host-a-website-on-s3/5.PNG?raw=true)
+![Website-Hosted]![5](https://github.com/user-attachments/assets/f1142947-35a1-46df-b981-44ba31db0fb1)
+
+
 
 In this project, I:
 ✅ Created and configured an Amazon S3 bucket, complete with ACLs, versioning, and public access.
