@@ -3,7 +3,8 @@ I'm excited to share a recent project where I designed and implemented a three-t
 
 [Archtiecture]
 
-🔍 Project Highlights:![Archtitecture](https://github.com/user-attachments/assets/f7f40fcf-307d-4372-a47a-306ad4b25371)
+🔍 Project Highlights:![Archtitecture]![final -ec2 project](https://github.com/user-attachments/assets/6b6b5b90-062e-46d2-a0b8-9a6edb81628e)
+
 
 
     Amazon VPC: Provided a secure and isolated network environment.
