@@ -65,7 +65,16 @@ Receives event metadata messages for later downstream processing.
 5. **Create an SQS queue** and get the queue URL.
 6. **Update Lambda environment variables or hard-coded ARNs/URLs** for SNS topic and SQS queue.
 7. **Test by uploading and deleting files in S3**.
+8. 
+## ✅ Monitoring with CloudWatch:
 
+During development and testing, I actively monitored **Lambda execution, errors, and logs** using **Amazon CloudWatch Logs**.  
+This allowed me to **track incoming S3 events**, check **Lambda execution success/failure**, and **debug SNS/SQS message delivery**.
+
+To view Lambda logs:
+- Go to **AWS CloudWatch Console**
+- Navigate to **Log Groups > /aws/lambda/{YourLambdaFunctionName}**
+- View individual log streams for each invocation
 
 Lambda.py is available:
 
