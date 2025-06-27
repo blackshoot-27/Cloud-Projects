@@ -69,6 +69,11 @@ Receives event metadata messages for later downstream processing.
 
 Lambda.py is available:
 
+Issues you might face:
+
+Check the role of lambda function  should have acess to the Amazon SQS and SNS Service Acess.
+Check cloud watch logs for detailed analysis and make sure lambda role has a acess for logging.
+
 
 
 
