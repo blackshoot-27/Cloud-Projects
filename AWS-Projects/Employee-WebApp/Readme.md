@@ -1,7 +1,7 @@
 #Done in Aws Cloud techniqal Essentials
 I'm excited to share a recent project where I designed and implemented a three-tier web application architecture on AWS. This project utilized a range of AWS services including Amazon EC2, VPC, DynamoDB, and Elastic Load Balancing, ensuring high availability, scalability, and security.
 
-![Archtiecture]
+[Archtiecture]
 
 🔍 Project Highlights:![Archtitecture](https://github.com/user-attachments/assets/f7f40fcf-307d-4372-a47a-306ad4b25371)
 
