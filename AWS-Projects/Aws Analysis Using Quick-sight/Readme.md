@@ -1,6 +1,11 @@
 Here's how I used Amazon QuickSight to visualise Netflix's catalogue trends 📊
 
-![Netflix-Analytics](https://github.com/blackshoot-27/AWS-Projects/blob/main/Aws%20Analysis%20Using%20Quick-sight/5.PNG?raw=true)
+Netflix-Analytics
+
+![5](https://github.com/user-attachments/assets/71958e31-7396-44ee-8ecb-40a223d5d059)
+
+![6](https://github.com/user-attachments/assets/480b9721-fdcb-40c4-a5cf-5034e415e260)
+
 
 🔍 Throughout this AWS project, I learned how to:
 ✅ Upload and store datasets in Amazon S3.
