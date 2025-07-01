@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Generator - AWS HTML Version</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f0f0f0, #000000);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .quote-box {
+            background-color: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 700px;
+        }
+        .btn {
+            background-color: #000000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="quote-box">
+    <div id="quote">Click the button to load a random quote...</div>
+    <button class="btn" onclick="fetchQuote()">Get Random Quote</button>
+</div>
+
+<script>
+    function fetchQuote() {
+        fetch('https://1n6awfqvrj.execute-api.ap-south-1.amazonaws.com/getquote')  // Replace with your actual API Gateway URL
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('quote').innerHTML = "<b><i>" + data.quote_html + "</i></b>";
+        })
+        .catch(error => {
+            document.getElementById('quote').innerText = "Failed to load quote.";
+            console.error('Error:', error);
+        });
+    }
+</script>
+
+</body>
+</html>
